@@ -225,4 +225,4 @@
     suma = cur.execute("SELECT SUM(c12) FROM tbl1").fetchall()
     suma=pd.DataFrame(suma,index=None)
     suma.columns=["SUM(c12)"]
-    print(suma)
+    suma
